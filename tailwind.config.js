@@ -7,9 +7,9 @@ export default {
   darkMode:'class',
   theme: {
     extend: {
-      color:{
-        'primary':'#E58411',
-        'secondary':'#1E1E1E',
+      colors:{
+        primary:'#E58411',
+        secondary:'#1E1E1E',
         'secondary-bg':'#F7F7F7'
       },
       fontFamily:{
