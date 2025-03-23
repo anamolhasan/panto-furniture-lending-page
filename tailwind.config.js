@@ -4,8 +4,18 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode:'class',
   theme: {
-    extend: {},
+    extend: {
+      color:{
+        'primary':'#E58411',
+        'secondary':'#1E1E1E',
+        'secondary-bg':'#F7F7F7'
+      },
+      fontFamily:{
+        'primary':["Poppins", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
